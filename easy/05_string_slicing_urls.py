@@ -7,7 +7,7 @@ print(url2[7:-4])
 print(url3[7:-4])
 
 
-my_slice = slice(7, -4)    # για όταν θες να επαναχρησιμοποιείς το ίδιο κόψιμο
+my_slice = slice(7, -4)    # for reusing the same slice
 
 print(url1[my_slice])
 print(url2[my_slice])
