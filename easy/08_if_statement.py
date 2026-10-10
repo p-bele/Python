@@ -1,8 +1,8 @@
-age = int(input("πόσο χρονών είσαι? "))
+age = int(input("how old are you? "))
 
 if age>=18:
-  print("έχεις δικαίωμα ψήφου")
+  print("you can vote")
 elif age>=13:
-  print("είσαι έφηβος, θα μπορείς να φηφίσεις σε " + str(18-age) + " χρόνια")
+  print("teenager, you can vote in " + str(18-age) + " years")   #cast age to string to concat with text
 else:
-  print("αργείς ακόμα... παίξε κανά παιχνίδι")
+  print("kid, drink your milk...")
