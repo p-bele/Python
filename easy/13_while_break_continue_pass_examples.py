@@ -1,5 +1,8 @@
-secret_number = 7
+# BREAK --> breaks the while loop immediately 
+# CONTINUE --> goes on top and the loop and runs again
+# PASS --> does nothing, acts as a placeholder
 
+secret_number = 7
 while True:                            # Τρέχει ασταμάτητα
     guess = int(input("Μάντεψε: "))
 
@@ -11,7 +14,6 @@ while True:                            # Τρέχει ασταμάτητα
 
 
 x=0
-
 while x<5:
   x +=1
 
@@ -22,13 +24,15 @@ while x<5:
 
 
 
-# pass, λειτουργεί σαν placeholder (κενή εντολή), συνεχίζεται ο κώδικας κανονικά
+#pass, λειτουργεί σαν placeholder (κενή εντολή), συνεχίζεται ο κώδικας κανονικά
 
 x = 0
 while x < 10:
     x += 1
     if x == 5:
-        # Ξέρω ότι στο 5 θέλω να κάνω κάτι ειδικό, αλλά δεν το έχω σκεφτεί ακόμα!
+        # Ξέρω ότι στο 5 θέλω να κάνω κάτι ειδικό (ή και τίποτα), αλλά δεν το έχω σκεφτεί ακόμα!
         pass
     else:
       print(x)
+
+#θα εμφανίσει όλες τις τιμές του x εκτός από το 5 
