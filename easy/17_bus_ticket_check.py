@@ -17,8 +17,5 @@ for seats in range(1,6):
       elif answer.upper()=="NO":
         counter_invalid +=1
 
-
-
-
 print(f"valid tickets: {counter_valid}")
 print(f"invalid tickets: {counter_invalid}")
