@@ -1,3 +1,5 @@
+#this is a list of salaries. Classify them to 2 categories. Low salaries and high salaries if they are under/over 2.000 respectively
+
 raw_salaries = [900, 1500, 3200, 850, 4100, 1200, 2800, 950, 5000, 1100]
 
 low_salaries = []
