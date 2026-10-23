@@ -1,0 +1,4 @@
+grades = [15, 18, 14, 20, 17]
+
+average = sum(grades) / len(grades)
+print(f"Ο μέσος όρος είναι: {average}")  # Έξοδος: 16.8
