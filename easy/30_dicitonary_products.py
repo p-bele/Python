@@ -4,7 +4,7 @@ product = {
     "stock": 15
 }
 
-#άλλαξε την τιμή σε 750 και πρόσθεσε brand:Dell
+#change the value to 750 and add brand:Dell
 
 product["price"] = 750
 product["brand"] = "Dell"
